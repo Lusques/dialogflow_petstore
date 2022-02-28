@@ -53,4 +53,5 @@ console.log(dialogContainer)
 
 dialogButton.addEventListener('click', ()=>{
 dialogContainer.classList.toggle('dialogflow__container__active')
+dialogButton.classList.toggle('dialogflow__button__active')
 })

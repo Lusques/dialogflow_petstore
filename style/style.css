@@ -250,6 +250,12 @@ img {
   background-image: url(../image/dialog.png);
   background-size: contain;
 }
+.main .dialogflow__button__active {
+  position: absolute;
+  right: 0;
+  background-image: url(../image/close_white_24dp.svg);
+  background-color: #ef6c00;
+}
 .main .carousel {
   height: 300px;
   width: 100%;

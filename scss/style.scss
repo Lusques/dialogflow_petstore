@@ -330,6 +330,13 @@ $contentWidth: 900px;
 
       background-image: url(../image/dialog.png);
       background-size: contain;
+      
+      &__active{
+        position: absolute;
+        right: 0;
+        background-image: url(../image/close_white_24dp.svg);
+        background-color: #ef6c00;
+      }
     }
 
   }
